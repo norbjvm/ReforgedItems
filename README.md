@@ -9,7 +9,6 @@
 - **Creative Inventory Support**: Items taken from creative inventory are automatically modified
 - **Command System**: Admin commands for reloading and force-remodifying items
 - **Permission System**: Granular permissions for different commands
-- **Obfuscated Build**: Production-ready obfuscated JAR for distribution
 
 ## 📋 Requirements
 
