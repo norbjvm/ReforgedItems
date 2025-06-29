@@ -124,43 +124,6 @@ When `auto-remodify: true` is enabled:
 - Old modification tags are removed and reapplied
 - Ensures consistency across server restarts
 
-## 🏗️ Development
-
-### Project Structure
-```
-src/main/java/com/lythnorb/itemforge/
-├── ItemForge.java                 # Main plugin class
-├── commands/
-│   └── ItemForgeCommand.java      # Command handling
-├── listeners/
-│   └── ItemModifyListener.java    # Event listeners
-├── managers/
-│   ├── ConfigManager.java         # Configuration management
-│   └── ItemManager.java           # Item processing logic
-└── utils/
-    ├── ColorUtils.java            # Color utilities
-    ├── CustomEnchantmentManager.java # Enchantment system
-    ├── ItemModifier.java          # Item modification logic
-    └── Logger.java                # Logging utilities
-```
-
-### Building
-```bash
-# Standard build
-mvn clean package
-
-# Distribution copy
-obfuscate.bat
-```
-
-### File Output
-```
-target/
-├── itemforge-1.0.0.jar              # Standard build
-└── obfuscated/
-    └── itemforge-1.0.0-obfuscated.jar  # Distribution copy
-```
-
 ## 🐛 Troubleshooting
 ### Common Issues
 **Plugin not loading:**
