@@ -25,20 +25,6 @@
 3. **Start**: Restart your server
 4. **Configure**: Edit the generated YAML files in `plugins/ItemForge/`
 
-### Building from Source
-
-```bash
-# Prerequisites
-- Java 17+
-- Maven 3.6+
-
-# Build
-mvn clean package
-
-# Create distribution copy
-obfuscate.bat
-```
-
 ## ⚙️ Configuration
 
 The plugin uses modular YAML configuration files:
